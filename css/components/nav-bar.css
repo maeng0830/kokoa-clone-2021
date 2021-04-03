@@ -26,7 +26,6 @@
 
 .nav__setting-notification {
   background-color: var(--orange);
-  display: flex;
   width: 5px;
   height: 5px;
   border-radius: 2.5px;
