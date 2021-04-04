@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats Kokoa Clone</title>
+    <title>Settings Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,40 +22,38 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span class="screen-header__setting">
-          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
-          <span class="screen-header__setting-notification"></span>
-        </span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-2x"></i>
       </div>
     </header>
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component user-component__chat">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar"
-              src="kmk.jpg"
-              alt="#"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">Blackwaterstone</h4>
-              <h6 class="user-component__subtitle">
-                Hey Blackwaterstone. do you remember me?
-              </h6>
-            </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i><span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i><span>Kokoa Lab</span>
           </div>
-        </div>
-      </a>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-code-branch"></i><span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Vesion</div>
+        </li>
+      </ul>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -67,7 +65,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__chat-notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

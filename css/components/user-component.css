@@ -55,3 +55,14 @@
 .user-component__chat {
   margin-bottom: 10px;
 }
+
+.user-component__text div {
+  display: flex;
+  position: relative;
+}
+
+.user-component__text div i {
+  bottom: 0px;
+  position: absolute;
+  left: 145px;
+}
